@@ -1,0 +1,14 @@
+# Ignorar arquivos de variáveis de ambiente
+.env
+.db.env
+.api.env
+
+# Ignorar pastas e arquivos gerados por Docker
+.docker/
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Ignorar arquivos temporários do sistema operacional
+*.swp
+*~
+.DS_Store
